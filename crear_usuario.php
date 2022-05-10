@@ -1,5 +1,5 @@
 <?php require_once "parte_superior.php" ?>
-<?php require "connwPDO.php" ?>
+<?php require_once("Config/conn.php"); ?>
 
 
 

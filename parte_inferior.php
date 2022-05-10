@@ -36,13 +36,13 @@
 <footer class="sticky-footer bg-white">
     <div class="container my-auto">
         <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website2022</span>
+            <span>Copyright &copy;Soporte CMI 2022</span>
         </div>
     </div>
 </footer>
 <!-- End of Footer -->
 
-<!-- Bootstrap core JavaScript-->
+<!-- Bootstrap core JavaScript para la plantilla admin-->
 <script src="Resources/vendor/jquery/jquery.min.js"></script>
 <script src="Resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -56,14 +56,17 @@
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- select2 script -->
-<script src='./Resources/js/select2/select2.min.js'></script>
+<script src='Resources/js/select2/select2.full.min.js'></script>
+
 <!-- Libreria español -->
-<script src="./Resources/js/select2/es/es.js"></script>
+<script src="Resources/js/select2/es/es.js"></script>
 <!---Select2 CDN -->
 <!--<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>-->
 
-<script src="./Resources/js/form-create-js/formulario1.js"></script>
+<script src="Resources/js/form-create-js/formulario1.js"></script>
+
 <script>
+
     $(document).ready(function() {
 
         $("#BuscarUnidad").select2({

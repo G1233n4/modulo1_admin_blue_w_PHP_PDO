@@ -1,5 +1,5 @@
 <?php
-include 'connwPDO.php';
+require_once("Config/conn.php");
 
 // Número de registros recuperados
 //$numberofrecords = 10;

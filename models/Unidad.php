@@ -1,5 +1,5 @@
 <?php 
-class Persona {
+class Unidad {
     
 }
 
